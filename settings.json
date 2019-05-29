@@ -1,0 +1,56 @@
+{
+  // 终端配置
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+  // "terminal.integrated.shell.windows": "cmd.exe",
+  // "terminal.integrated.env.windows": {"CMDER_ROOT": "C:\\Users\\Administrator\\Downloads\\cmder_mini"},
+  // "terminal.integrated.shellArgs.windows": ["/k", "C:\\Users\\Administrator\\Downloads\\cmder_mini\\vendor\\init.bat"],
+  // 关闭预览（每次打开新Tab）
+  "workbench.editor.enablePreview": false,
+  // 关闭反馈图标
+  "workbench.statusBar.feedback.visible": false,
+  // 调整目录结构不需确认
+  "explorer.confirmDragAndDrop": false,
+  // 配置emmet缩写语言
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  // 根据文件后缀名配置代码语言类型
+  "files.associations": {
+    "*.html": "html",
+    "*.js": "javascriptreact"
+  },
+  // 关闭右侧缩略图
+  "editor.minimap.enabled": false,
+  // diff时忽略空格
+  "diffEditor.ignoreTrimWhitespace": true,
+  // 禁止自动判断文件缩进
+  "editor.detectIndentation": false,
+  // 1 Tab = 2 WhiteSpace
+  "editor.tabSize": 2,
+  // 调整目录结构时提示更新代码路径
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  // 使用DOM渲染终端
+  "terminal.integrated.rendererType": "dom",
+  // 启用装饰器语法
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+  // 配置css文件格式化插件
+  "[css]": {
+    "editor.defaultFormatter": "michelemelluso.code-beautifier"
+  },
+  // 超过20万行的文件禁用标记和渲染
+  "editor.maxTokenizationLineLength": 200000,
+  // 保存时删除末尾的多余空行
+  "files.trimFinalNewlines": true,
+  // 保存时删除行末空格
+  "files.trimTrailingWhitespace": true,
+  // 保存时在末尾换行
+  "files.insertFinalNewline": true,
+  // 将空格渲染为灰点
+  "editor.renderWhitespace": "all",
+  // 删除文件不需确认
+  "explorer.confirmDelete": false,
+  // 窗口放大20%
+  "window.zoomLevel": 1,
+  // 禁止删除自动插入的空格
+  "editor.trimAutoWhitespace": false
+}
