@@ -37,11 +37,11 @@
   "[css]": {
     "editor.defaultFormatter": "michelemelluso.code-beautifier"
   },
-  // 超过20万行的文件禁用标记和渲染
+  // 超过20万字节的文件禁用标记和渲染
   "editor.maxTokenizationLineLength": 200000,
   // 保存时删除末尾的多余空行
   "files.trimFinalNewlines": true,
-  // 保存时删除行末空格
+  // 禁止保存时删除行末空格
   "files.trimTrailingWhitespace": false,
   // 保存时在末尾换行
   "files.insertFinalNewline": true,
